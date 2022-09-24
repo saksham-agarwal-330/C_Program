@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int x=20,y=40,z=45;
+    if(x>y&&x>z)
+    {
+        printf("biggest=%d\n",x);
+    }
+    
+    if(y>x&&y>z)
+    {
+        printf("biggest=%d\n",y);
+    }
+    
+    if(z>x&&z>y)
+    {
+        printf("biggest=%d\n",z);
+    }
+    return 0;
+}
